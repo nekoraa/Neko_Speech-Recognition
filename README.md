@@ -12,10 +12,13 @@
 - **轻量部署**：优化的架构使其能够在普通硬件上高效运行。
 
 ---
+## 使用方法
+安装必要的依赖后点击 **运行程序.bat** 
+
 
 ## 环境依赖
 
-本项目基于 Python 开发，推荐使用 **Python 3.8 或更高版本**。
+本项目基于 Python 开发，推荐使用 **Python 3.8 或更高版本**。（注意必须要cuda）
 
 ### 必要依赖库
 
@@ -32,11 +35,7 @@
 | `googletrans`  | 谷歌翻译 API 的 Python 接口，用于实时翻译文本（可选）。                                        |
 | `speechbrain`  | 用于音频处理的库，支持语音分离和增强（如 `SepformerSeparation`）。                              |
 
-### 依赖安装
 
-使用以下命令快速安装所需库：
-```bash
-pip install torch sounddevice numpy PyQt6 colorama transformers googletrans speechbrain
 
 
 
