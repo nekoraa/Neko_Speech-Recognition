@@ -1,0 +1,5 @@
+pip install torch==2.5.1+cu124
+pip install torch sounddevice numpy PyQt6 colorama transformers googletrans==4.0.0-rc1
+
+
+python 语音识别实时翻译GUI.py

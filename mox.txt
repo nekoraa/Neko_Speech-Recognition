@@ -1,0 +1,1 @@
+pyinstaller --onefile --icon=A2E0E5715F34154F12021F72DB63955F.ico --add-data "models--openai--whisper-large-v3-turbo;model" 语音识别实时翻译GUI.py
